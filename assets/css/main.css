@@ -2255,6 +2255,11 @@ footer .container .footer-bank__desc {
   justify-content: space-between;
   align-items: flex-start;
   gap: 24px;
+  background-image: -webkit-image-set(url("./../../image/illustration/banner_1@1x.jpg") 1x, url("./../../image/illustration/banner_1@2x.jpg") 2x);
+  background-image: image-set(url("./../../image/illustration/banner_1@1x.jpg") 1x, url("./../../image/illustration/banner_1@2x.jpg") 2x);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: right center;
 }
 .banner__logo {
   width: 160px;
