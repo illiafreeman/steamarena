@@ -338,8 +338,22 @@
 				<div class="content">
 					<div class="swiper mySwiper">
 						<div class="swiper-wrapper">
-							<div class="swiper-slide">Slide 1</div>
-							<div class="swiper-slide">Slide 2</div>
+							<div class="swiper-slide banner">
+								<div class="banner__body">
+									<img class="banner__logo" src="./image/tinkoff_new.svg" alt="">
+									<h3 class="banner__title">Готовы к следующему уровню?</h3>
+									<p class="banner__desc">Кредитная карта Тинькофф поможет вам покорить новые горизонты игрового мира!</p>
+									<button class="banner__btn">оформить</button>
+								</div>
+							</div>
+							<div class="swiper-slide banner">
+								<div class="banner__body">
+									<img class="banner__logo" src="./image/tinkoff_new.svg" alt="">
+									<h3 class="banner__title">Заряди свою игру!</h3>
+									<p class="banner__desc">Дебетовая карта на повышенный кэшбэк. Удвой свою выгоду от развлечений!</p>
+									<button class="banner__btn">оформить</button>
+								</div>
+							</div>
 						</div>
 						<div class="swiper-button-next"></div>
 						<div class="swiper-button-prev"></div>
@@ -656,6 +670,8 @@
 	<script>
 		var swiper = new Swiper(".mySwiper", {
 			slidesPerView: 1,
+			spaceBetween: 24,
+			freeMode: true,
 			scrollbar: {
 				el: ".swiper-scrollbar",
 				hide: true,
@@ -664,6 +680,12 @@
 				nextEl: ".swiper-button-next",
 				prevEl: ".swiper-button-prev",
 			},
+			breakpoints: {
+				768: {
+					slidesPerView: 2,
+					spaceBetween: 20,
+				},
+			}
 		});
 	</script>
 </body>

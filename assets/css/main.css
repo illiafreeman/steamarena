@@ -2231,4 +2231,14 @@ footer .container .footer-copyright img {
 .swiper {
   width: 100%;
   height: 100%;
+}
+
+footer .container .footer-bank img {
+  height: 20px;
+  width: 115px;
+}
+
+footer .container .footer-bank__desc {
+  line-height: 125%;
+  letter-spacing: 0.12em;
 }/*# sourceMappingURL=main.css.map */
