@@ -2241,4 +2241,35 @@ footer .container .footer-bank img {
 footer .container .footer-bank__desc {
   line-height: 125%;
   letter-spacing: 0.12em;
+}
+
+.swiper-slide {
+  border-radius: 8px;
+  background: green;
+}
+
+.banner {
+  padding: 48px 48px 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
+}
+.banner__logo {
+  width: 160px;
+  margin-bottom: 24px;
+}
+.banner__title {
+  font-weight: 400;
+  font-style: 24px;
+  line-height: 1.47;
+  margin-bottom: 12px;
+  color: #fff;
+}
+.banner__desc {
+  font-size: 15px;
+  line-height: 1.47;
+  margin: 0;
+  color: #B0B5C1;
 }/*# sourceMappingURL=main.css.map */
