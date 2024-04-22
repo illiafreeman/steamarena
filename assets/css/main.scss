@@ -2483,7 +2483,6 @@ footer .container .footer-bank__desc {
 }
 .swiper-slide {
     border-radius: 8px;
-    background: green;
 }
 .banner {
     padding: 48px 48px 55px;
@@ -2546,10 +2545,27 @@ footer .container .footer-bank__desc {
 }
 .swiper-scrollbar {
 }
-
-
-
-
+@media screen and (max-width:767px) {
+    .banner {
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        padding-bottom: 200px;
+        justify-content: flex-start;
+        &_1{
+            background-image: image-set(url('./../../image/illustration/banner_1_min@1x.jpg') 1x, url('./../../image/illustration/banner_1_min@2x.jpg') 2x);
+        }
+        &_2{
+            background-image: image-set(url('./../../image/illustration/banner_2_min@1x.jpg') 1x, url('./../../image/illustration/banner_2_min@2x.jpg') 2x);
+        }
+    }
+    .swiper-scrollbar{
+        opacity: 1 !important;
+    }
+    .swiper-scrollbar-drag{
+        background: #fff;
+    }
+}
 
 
 

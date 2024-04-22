@@ -2245,7 +2245,6 @@ footer .container .footer-bank__desc {
 
 .swiper-slide {
   border-radius: 8px;
-  background: green;
 }
 
 .banner {
@@ -2305,4 +2304,28 @@ footer .container .footer-bank__desc {
   background: #eb9900;
   border-color: #eb9900;
   color: #181a21;
+}
+
+@media screen and (max-width: 767px) {
+  .banner {
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-bottom: 200px;
+    justify-content: flex-start;
+  }
+  .banner_1 {
+    background-image: -webkit-image-set(url("./../../image/illustration/banner_1_min@1x.jpg") 1x, url("./../../image/illustration/banner_1_min@2x.jpg") 2x);
+    background-image: image-set(url("./../../image/illustration/banner_1_min@1x.jpg") 1x, url("./../../image/illustration/banner_1_min@2x.jpg") 2x);
+  }
+  .banner_2 {
+    background-image: -webkit-image-set(url("./../../image/illustration/banner_2_min@1x.jpg") 1x, url("./../../image/illustration/banner_2_min@2x.jpg") 2x);
+    background-image: image-set(url("./../../image/illustration/banner_2_min@1x.jpg") 1x, url("./../../image/illustration/banner_2_min@2x.jpg") 2x);
+  }
+  .swiper-scrollbar {
+    opacity: 1 !important;
+  }
+  .swiper-scrollbar-drag {
+    background: #fff;
+  }
 }/*# sourceMappingURL=main.css.map */
