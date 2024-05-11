@@ -571,7 +571,7 @@
 							</ul>
 						</nav>
 						<div class="footer-bank">
-							<div class="footer-bank__image"><img src="/image/tinkoff_new.svg"
+							<div class="footer-bank__image"><img src="./image/tinkoff_new.svg"
 									title="Обслуживающий банк"></div>
 							<div class="footer-bank__desc">Обслуживающий банк</div>
 						</div>
@@ -670,17 +670,19 @@
 			slidesPerView: 1,
 			spaceBetween: 24,
 			freeMode: true,
+			effect: "fade",
 			scrollbar: {
 				el: ".swiper-scrollbar",
 				hide: true,
 			},
 			autoplay: {
-				delay: 5000,
+				delay: 50000,
 			},
 			breakpoints: {
 				768: {
 					slidesPerView: 2,
-					spaceBetween: 20,
+					spaceBetween: 24,
+					effect: "none",
 				},
 			}
 		});

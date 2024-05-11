@@ -2536,14 +2536,18 @@ footer .container .footer-bank__desc {
         background: transparent;
         font-weight: 600;
         cursor: pointer;
+        background: #000;
         &:hover{
-            background: #eb9900;
             border-color: #eb9900;
-            color: #181a21;
+            color: #fff;
         }
     }
 }
-.swiper-scrollbar {
+.swiper-horizontal > .swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal {
+    left: 20px;
+    right: 20px;
+    bottom: 16px;
+    width: auto;                                                                                                                                  
 }
 @media screen and (max-width:767px) {
     .banner {
