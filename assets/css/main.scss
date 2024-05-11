@@ -2549,6 +2549,9 @@ footer .container .footer-bank__desc {
     bottom: 16px;
     width: auto;                                                                                                                                  
 }
+.swiper-fade .swiper-slide {
+    pointer-events: all;
+}
 @media screen and (max-width:767px) {
     .banner {
         background-size: 100% auto;
@@ -2568,6 +2571,9 @@ footer .container .footer-bank__desc {
     }
     .swiper-scrollbar-drag{
         background: #fff;
+    }
+    .swiper-fade .swiper-slide {
+        pointer-events: all;
     }
 }
 
