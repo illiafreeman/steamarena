@@ -2299,7 +2299,6 @@ footer .container .footer-bank__desc {
   background: transparent;
   font-weight: 600;
   cursor: pointer;
-  background: #000;
 }
 .banner__btn:hover {
   border-color: #eb9900;
@@ -2324,6 +2323,7 @@ footer .container .footer-bank__desc {
     background-position: center bottom;
     padding-bottom: 200px;
     justify-content: flex-start;
+    padding: 32px 20px 167px;
   }
   .banner_1 {
     background-image: -webkit-image-set(url("./../../image/illustration/banner_1_min@1x.jpg") 1x, url("./../../image/illustration/banner_1_min@2x.jpg") 2x);
